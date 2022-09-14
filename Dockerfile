@@ -27,4 +27,4 @@ EXPOSE 8080
 #ENV HTTP_PORT=8081
 
 # Run
-CMD [ "/app/main" ]
+CMD [ "/main" ]
