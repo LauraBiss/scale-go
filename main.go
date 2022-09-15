@@ -12,7 +12,7 @@ import (
 var httpRequestsTotal = prometheus.NewCounter(
 	prometheus.CounterOpts{
 		Name: "http_requests_total",
-		Help: "Total number of http requests.",
+		Help: "Total number of http requests",
 	},
 )
 
