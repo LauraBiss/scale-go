@@ -8,7 +8,7 @@ WORKDIR /app
 COPY *.go ./
 
 # Build
-RUN go build -o /docker-gs-ping
+RUN go build -o main main.go
 
 # This is for documentation purposes only.
 # To actually open the port, runtime parameters
